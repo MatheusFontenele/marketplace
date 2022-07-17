@@ -17,6 +17,8 @@
 <body class="">
     <div id="app">
         <Navbar />
+        <Sidebar></Sidebar>
+        <Wrapper />
     </div>
     <script src="{{ asset('js/app.js') }}"></script>
 </body>
