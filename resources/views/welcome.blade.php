@@ -15,9 +15,12 @@
 </head>
 
 <body class="">
-    <div class="w-screen h-screen flex items-center justify-center bg-slate-900">
-        <h1 class="text-slate-50 font-semibold text-2xl">Hello world</h1>
+    <div id="app">
+        <Navbar />
+        <Sidebar></Sidebar>
+        <Wrapper />
     </div>
+    <script src="{{ asset('js/app.js') }}"></script>
 </body>
 
 </html>
