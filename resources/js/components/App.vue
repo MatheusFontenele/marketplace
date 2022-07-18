@@ -5,6 +5,7 @@
             <sidebar />
             <wrapper />
         </main>
+        <Footer />
     </div>
 </template>
 
@@ -12,11 +13,13 @@
 import Navbar from './Navbar.vue'
 import Sidebar from './Sidebar.vue'
 import Wrapper from './Wrapper.vue'
+import Footer from './Footer.vue'
     export default {
         components: {
             Navbar,
             Sidebar,
-            Wrapper
+            Wrapper,
+            Footer
         },
 
        mounted() {

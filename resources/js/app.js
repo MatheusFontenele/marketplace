@@ -21,6 +21,7 @@ window.Vue = require('vue').default;
 
 Vue.component('App', require('./components/App.vue').default);
 Vue.component('Navbar', require('./components/Navbar.vue').default);
+Vue.component('Footer', require('./components/Footer.vue').default);
 Vue.component('Wrapper', require('./components/Wrapper.vue').default);
 Vue.component('Sidebar', require('./components/Sidebar.vue').default);
 
