@@ -1,5 +1,5 @@
 <template>
-    <aside class="h-screen z-10 top-0 fixed ml-4 gap-2 flex items-center justify-center flex-col">
+    <aside class=" z-10 top-0 mt-10 lg:mt-0 lg:h-screen  lg:fixed ml-4 gap-2 flex items-center justify-center lg:flex-col">
         <a href="" class="bg-[#F36300] flex justify-center items-center w-12 h-12 rounded-full">
             <ph-film-slate :size="32" color="#f7f7f7" weight="bold" />
         </a>

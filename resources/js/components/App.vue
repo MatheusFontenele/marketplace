@@ -1,7 +1,7 @@
 <template>
-    <div>
+    <div class="overflow-x-hidden">
         <Navbar />
-        <main class="flex">
+        <main class="flex flex-col">
             <sidebar />
             <wrapper />
         </main>

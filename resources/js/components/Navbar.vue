@@ -1,6 +1,6 @@
 <template>
     <header class="w-screen h-20 bg-[#03ABF8] ">
-        <div class=" h-full px-20 flex items-center justify-between max-w-7xl mx-auto">
+        <div class=" h-full md:px-20 px-5 flex items-center justify-between max-w-7xl mx-auto">
             <button class="p-2 rounded-lg hover:brightness-125 hover:bg-slate-600" >
                 <ph-list :size="38" weight="bold" color="#FFF"  />
             </button>
