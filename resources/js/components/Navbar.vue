@@ -1,7 +1,10 @@
 <template>
     <header class="w-screen h-20 bg-[#03ABF8] ">
-        <div class=" h-full px-20 flex items-center justify-between max-w-7xl mx-auto">
-            <button class="p-2 rounded-lg hover:brightness-125 hover:bg-slate-600" >
+        <div class=" h-full md:px-20 px-5 flex items-center justify-between max-w-7xl mx-auto">
+            <button
+                type="button"
+                @click="openMenu"
+                class="p-2 rounded-lg hover:brightness-125 hover:bg-slate-600" >
                 <ph-list :size="38" weight="bold" color="#FFF"  />
             </button>
 
@@ -52,12 +55,24 @@ import logoIcon from "../../images/logo.png"
         },
         data(){
             return [
-                logoIcon
+                logoIcon,
+                closeMenu,
+                openMenu
             ]
+        },
+        methods: {
+            closeMenu: function (){
+                menuIsOpen.value = false
+            },
+            openMenu: function (){
+                console.log('aberto');
+                menuIsOpen.value = true
+            }
         },
         mounted() {
             console.log('nav Component mounted.')
         }
     }
+    const menuIsOpen = ref(true)
 
 </script>
