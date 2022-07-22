@@ -3,7 +3,6 @@
         <div class=" h-full md:px-20 px-5 flex items-center justify-between max-w-7xl mx-auto">
             <button
                 type="button"
-                @click="openMenu"
                 class="p-2 rounded-lg hover:brightness-125 hover:bg-slate-600" >
                 <ph-list :size="38" weight="bold" color="#FFF"  />
             </button>
